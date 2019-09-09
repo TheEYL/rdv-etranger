@@ -1,13 +1,13 @@
 # RDV-Etranger
 
 This project was developed to help me get a rdv from the French prefecture at val-de-marne. 
-Their platform does not have a notification system when there rdv are available and so it is 
-painful to constantly have to check. Moreover, the hours where rdvs are available are random.
-Strangely enough, when a rdv is available, in less than 5 mins all slots are booked. Almost as though some other
+Their platform does not have a notification system. So, it is painful to constantly have to check manually. Moreover, the rdvs are available at random hours.
+Strangely enough, when a rdv is available, in less than 5 mins all slots are booked. Almost as though some other students
 have their own means to get notified. 
 
 
-#Installation.
+##Installation.
+
 This is a python project. It was tested on linux only. So the system notification will not work on MAC OS or Windows.
 
 The packages will have to be installed one after the other otherwise the project will fail.
@@ -16,7 +16,8 @@ The packages will have to be installed one after the other otherwise the project
     pip install <other packages in requirements.txt>
 
 
-#Setup
+##Setup
+
 * You need to create a token Gmail account and disable security on this account to send emails.
 Instructions on this link: https://devanswers.co/allow-less-secure-apps-access-gmail-account/
 
@@ -24,7 +25,8 @@ Instructions on this link: https://devanswers.co/allow-less-secure-apps-access-g
 
 * change the absolute path of the `EMAIL_FILE.html` in main.py
 
-#Running the code. 
+##Running the code. 
+
 Linux:
 
     ./main.py
